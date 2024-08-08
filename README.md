@@ -10,25 +10,34 @@ javabeans111@163.com
 * Add natural details for existing terrain layer weights;
 
 ## Quick Start
-1.Drag ====TerrainNormalMask==== prefab in the prefab folder into your scene, the TerrainNormalMask Component is there for configuration;
+1. Drag ====TerrainNormalMask==== prefab in the prefab folder into your scene,
+   the TerrainNormalMask Component is there for configuration;
 
-2.Drag target terrain into ” Terrain” field，setup the “Terrain Layer” index , this corresponds to your layer to modify, and the index starts from 0; 
-eg, you wanna modify the grass layer and it is the second layer, please set “Terrain Layer” to 1 ;
+3. Drag target terrain into ” Terrain” field，setup the “Terrain Layer” index ,
+   this corresponds to your layer to modify, and the index starts from 0; 
+   eg, you wanna modify the grass layer and it is the second layer, please set
+   “Terrain Layer” to 1 ;
 
-3.Click “Cache Layer Weights ”,  this will cache current layer weights for later recovery ;this is necessary because we will generate normal mask 
-randomly and overwrite the layer weights;
+5. Click “Cache Layer Weights ”,  this will cache current layer weights for
+   later recovery ;this is necessary because we will generate normal mask 
+   randomly and overwrite the layer weights;
 
-4.Click “ New Normal Mask ”, this will replace old layer weight with our new normal mask, and renormalize other layer weights accordingly ；
+7. Click “ New Normal Mask ”, this will replace old layer weight with our new
+   normal mask, and renormalize other layer weights accordingly ；
 
-5.The default operation of “New Normal Mask” is “Set” , please try using Add, Subtraction, or Multiply Operation for variation of effects ：
-    Add : Original Weight + Normal Mask , the effect is to enhance current Layer Weight;
-    Sub : Original Weight - Normal Mask , the effect is to decrease current Layer Weight;
-    Mul: Original Weight * Normal Mask, the effect is to decrease current Layer Weight, but with different method ;
-6.If you are not satisfied with the above options, it is necessary to generate a new Mask. Please remember to click “Recover Terrain Layers” , 
-which reset your terrain to original state before any normal mask is generated. And then click “New Normal Mask” again;
+9. The default operation of “New Normal Mask” is “Set” , please try using Add,
+   Subtraction, or Multiply Operation for variation of effects ：
+      Add : Original Weight + Normal Mask , the effect is to enhance current Layer Weight;
+      Sub : Original Weight - Normal Mask , the effect is to decrease current Layer Weight;
+      Mul: Original Weight * Normal Mask, the effect is to decrease current Layer Weight,
+           but with different method ;
+11. If you are not satisfied with the above options, it is necessary to generate a new Mask.
+    Please remember to click “Recover Terrain Layers” , which reset your terrain to original
+    state before any normal mask is generated. And then click “New Normal Mask” again;
 
-7.If you want to export current layer weight, click”Export Layer X Mask”. This will save current layer weight as a gray scale .tga. This image 
-could be adjusted in photoshop and act as a Biomi Mask in other terrain applications, eg. Gaia；
+13. If you want to export current layer weight, click”Export Layer X Mask”. This will save
+    current layer weight as a gray scale .tga. This image could be adjusted in photoshop and
+    act as a Biomi Mask in other terrain applications, eg. Gaia；
 
 
 
