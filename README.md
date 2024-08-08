@@ -27,9 +27,9 @@ javabeans111@163.com
 
 9. The default operation of “New Normal Mask” is “Set” , please try using Add,
    Subtraction, or Multiply Operation for variation of effects ：
-      Add : Original Weight + Normal Mask , the effect is to enhance current Layer Weight;
-      Sub : Original Weight - Normal Mask , the effect is to decrease current Layer Weight;
-      Mul: Original Weight * Normal Mask, the effect is to decrease current Layer Weight,
+      * Add : Original Weight + Normal Mask , the effect is to enhance current Layer Weight;
+      * Sub : Original Weight - Normal Mask , the effect is to decrease current Layer Weight;
+      * Mul: Original Weight * Normal Mask, the effect is to decrease current Layer Weight,
            but with different method ;
 11. If you are not satisfied with the above options, it is necessary to generate a new Mask.
     Please remember to click “Recover Terrain Layers” , which reset your terrain to original
