@@ -1,4 +1,4 @@
-# TerrainNormalMask
+# Terrain Normal Mask
 ## A simple yet powerful Unity Asset Store tool to add variation to terrain
 
 ![snowcover_half](https://github.com/user-attachments/assets/ffab80dc-cce8-44e7-82b4-5ef8c0ffb45e)
@@ -37,6 +37,9 @@
 13. If you want to export current layer weight, click”Export Layer X Mask”. This will save
     current layer weight as a gray scale .tga. This image could be adjusted in photoshop and
     act as a Biomi Mask in other terrain applications, eg. Gaia；
+
+       ![promotion_terrain_half](https://github.com/user-attachments/assets/608056ca-1e48-4259-80f6-32f033555c44)
+
 
 
 
